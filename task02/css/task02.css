@@ -44,8 +44,9 @@ header nav li:last-child a {
 }
 
 main {
+  width: 1200px;
   padding: 0 20px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 main article {
   border-right: 2px solid #848484;
