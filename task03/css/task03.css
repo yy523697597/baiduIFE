@@ -1,0 +1,78 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 20px;
+  background-color: #fff;
+  min-width: 580px;
+}
+
+main {
+  font-family: "微软雅黑";
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #999;
+}
+main .left,
+main .mid .midInner,
+main .right {
+  float: left;
+  background-color: #fff;
+  padding: 20px;
+}
+main .left {
+  margin-left: -100%;
+  width: 200px;
+  height: 120px;
+  float: left;
+}
+main .left img {
+  width: 80px;
+  height: 80px;
+}
+main .left h1 {
+  font-size: 20px;
+  float: right;
+}
+main .mid {
+  width: 100%;
+}
+main .mid .midInner {
+  margin-left: 220px;
+  margin-right: 140px;
+}
+main .mid .midInner p {
+  text-indent: 2em;
+}
+main .right {
+  width: 120px;
+  margin-left: -120px;
+}
+main .right img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+main .right img:last-child {
+  margin-bottom: 0;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+
+/*# sourceMappingURL=task03.css.map */

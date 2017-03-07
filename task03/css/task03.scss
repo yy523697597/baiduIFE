@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body,
+html {
+    padding: 20px;
+    background-color: #fff;
+    min-width: 580px;
+}
+main {
+
+    font-family: "微软雅黑";
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #999;
+
+    .left,
+    .mid .midInner,
+    .right {
+        float: left;
+        background-color: #fff;
+        padding: 20px;
+    }
+    .left {
+        margin-left: -100%;
+        width: 200px;
+        height: 120px;
+        float: left;
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        h1 {
+            font-size: 20px;
+            float: right;
+        }
+
+    }
+    .mid {
+        width: 100%;
+        .midInner {
+            margin-left: 220px;
+            margin-right: 140px;
+            p {
+                text-indent: 2em;
+            }
+        }
+    }
+    .right {
+        width: 120px;
+        margin-left: -120px;
+        img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        img:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+//clearfix 代码
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
