@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #ccc;
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.main .circle1,
+.main .circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: #fc0;
+  border-radius: 50%;
+}
+.main .circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+.main .circle2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: -50px;
+  margin-bottom: -50px;
+}
+.main p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=task04.css.map */
