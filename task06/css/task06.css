@@ -1,0 +1,345 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  width: 980px;
+  height: 1386px;
+  margin: 0 auto;
+  padding: 0 45px 60px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5px;
+  width: 110px;
+  height: 61px;
+  background-color: #D55D5C;
+}
+.header span {
+  font-size: 12px;
+  color: #fff;
+  font-family: "黑体";
+  text-align: center;
+}
+
+main {
+  border-top: 2px solid #938e8c;
+  border-bottom: 2px solid #938e8c;
+  padding: 40px 0;
+}
+main .introduce {
+  display: flex;
+  justify-content: space-between;
+  width: 892px;
+  margin: 0 auto;
+}
+main .introduce figure {
+  position: relative;
+  width: 641px;
+  height: 301px;
+}
+main .introduce figure .left-shade,
+main .introduce figure .right-shade {
+  width: 191px;
+  height: 301px;
+}
+main .introduce figure .left-shade {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(66, 141, 89, 0.5);
+}
+main .introduce figure .right-shade {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(204, 118, 129, 0.5);
+}
+main .introduce .about {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 203px;
+  height: 301px;
+  margin-bottom: 40px;
+  border-top: 2px solid #cc8091;
+}
+main .introduce .about h2 {
+  font-size: 24px;
+  font-family: "微软雅黑";
+  text-decoration: underline;
+  line-height: 40px;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+main .introduce .about p:first {
+  font-size: 12px;
+  color: #676767;
+  font-family: "楷体";
+  line-height: 10px;
+}
+main .introduce .about .number {
+  margin-left: -20px;
+  font-size: 116px;
+  color: #75b86b;
+  font-family: "微软雅黑";
+  font-style: italic;
+}
+main .introduce .about .undernum {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "微软雅黑";
+  color: #cc8091;
+}
+main .introduce .about .undernum .css1 {
+  font-size: 55px;
+  margin-right: 5px;
+}
+main .introduce .about .undernum .css1 + div {
+  align-self: flex-end;
+}
+main .introduce .about .undernum .css1 + div .css2 {
+  font-size: 21px;
+}
+main .introduce .about .undernum .css1 + div .css3 {
+  font-size: 12px;
+}
+
+.discription {
+  padding: 0;
+  margin-bottom: 20px;
+  width: 641px;
+  float: left;
+}
+.discription h4 {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.discription p {
+  font-size: 12px;
+  line-height: 16px;
+}
+.discription .dis1,
+.discription .dis2,
+.discription .dis3 {
+  display: inline-block;
+  width: 198px;
+  height: 200px;
+}
+.discription .dis1,
+.discription .dis2 {
+  margin-right: 20px;
+  float: left;
+}
+.discription .dis1 h4 {
+  color: #418c59;
+}
+.discription .dis1 p {
+  font-family: "宋体";
+  color: #767777;
+}
+.discription .dis2 h4 {
+  color: #d2994f;
+}
+.discription .dis2 p {
+  color: #213815;
+  font-weight: "微软雅黑";
+  opacity: 0.7;
+}
+.discription .dis3 {
+  position: relative;
+  padding-right: 10px;
+}
+.discription .dis3 h4 {
+  color: #cc7680;
+}
+.discription .dis3 P {
+  font-family: "微软雅黑";
+  color: #213815;
+}
+.discription .dis3 .dis3-1 {
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.discription .dis3 .dis3-1 span {
+  color: #cd4a48;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+article {
+  width: 415px;
+  height: 610px;
+  float: left;
+  word-break: break-all;
+  overflow: hidden;
+}
+article h1,
+article h2 {
+  font-family: "黑体";
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 58px;
+  color: #11456b;
+  text-transform: uppercase;
+  word-break: normal;
+}
+article h2 {
+  font-size: 33px;
+  border-bottom: 2px solid #11456b;
+  margin-bottom: 25px;
+}
+article h1 span {
+  font-size: 72px;
+  color: #f5e327;
+  font-style: italic;
+}
+article p {
+  font-family: "宋体";
+  font-size: 12px;
+  text-indent: 2em;
+}
+article p:first-of-type {
+  text-indent: 0;
+}
+article p:first-of-type:first-letter {
+  font-size: 70px;
+  color: #f5e327;
+  float: left;
+  font-family: "微软雅黑";
+}
+article img {
+  display: inline-block;
+  float: right;
+  padding: 20px 10px 20px 20px;
+}
+
+.quote {
+  width: 458px;
+  height: 610px;
+  float: right;
+  overflow: hidden;
+}
+.quote figure {
+  position: relative;
+  width: 458px;
+  height: 275px;
+}
+.quote figure img {
+  width: 458px;
+  height: 275px;
+  margin-bottom: 17px;
+}
+.quote figure div {
+  position: absolute;
+  line-height: 61px;
+  height: 61px;
+  width: 458px;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 0 40px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.quote figure div h2 {
+  vertical-align: baseline;
+  margin-top: 8px;
+  display: inline-block;
+  line-height: 45px;
+  padding-left: 10px;
+  height: 45px;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+  border-left: 2px solid #72b16a;
+}
+.quote figure div h3 {
+  height: 45px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 45px;
+  color: #72b16a;
+  font-style: italic;
+  font-family: "微软雅黑";
+}
+.quote div.quote-bottom-container {
+  position: relative;
+  width: 459px;
+  height: 318px;
+  background-color: #edefd5;
+  padding: 30px;
+}
+.quote div.quote-bottom-container p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+.quote div.quote-bottom-container p span {
+  font-size: 12px;
+  color: #5a5b5b;
+  font-style: italic;
+  text-align: right;
+}
+.quote div.quote-bottom-container p::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 6px solid #444;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  margin-right: 5px;
+}
+.quote div.quote-bottom-container div.quote-bottom {
+  width: 458px;
+  height: 160px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.quote div.quote-bottom-container div.quote-bottom div {
+  float: left;
+  width: 260px;
+  height: 160px;
+  line-height: 160px;
+  display: inline-block;
+  background-color: #d55f5b;
+  padding: 8px 16px 16px 8px;
+}
+.quote div.quote-bottom-container div.quote-bottom div span {
+  display: inline-block;
+  float: left;
+  font: 110px "微软雅黑";
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 142px;
+  line-height: 142px;
+}
+.quote div.quote-bottom-container div.quote-bottom blockquote {
+  height: 160px;
+  width: 198px;
+  display: inline-block;
+  background-color: yellow;
+  padding: 16px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=task06.css.map */
