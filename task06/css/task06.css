@@ -98,6 +98,7 @@ main .introduce .about .undernum {
 main .introduce .about .undernum .css1 {
   font-size: 55px;
   margin-right: 5px;
+  margin-top: -32px;
 }
 main .introduce .about .undernum .css1 + div {
   align-self: flex-end;
