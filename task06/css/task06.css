@@ -19,9 +19,8 @@ body {
   background-color: #D55D5C;
 }
 .header span {
-  font-size: 12px;
+  font: 12px "黑体";
   color: #fff;
-  font-family: "黑体";
   text-align: center;
 }
 
@@ -69,25 +68,21 @@ main .introduce .about {
   border-top: 2px solid #cc8091;
 }
 main .introduce .about h2 {
-  font-size: 24px;
-  font-family: "微软雅黑";
+  font: 24px "微软雅黑";
   text-decoration: underline;
   line-height: 40px;
   font-variant: small-caps;
   text-transform: capitalize;
 }
 main .introduce .about p:first {
-  font-size: 12px;
+  font-size: 12px "楷体";
   color: #676767;
-  font-family: "楷体";
   line-height: 10px;
 }
 main .introduce .about .number {
   margin-left: -20px;
-  font-size: 116px;
+  font: italic 116px "微软雅黑";
   color: #75b86b;
-  font-family: "微软雅黑";
-  font-style: italic;
 }
 main .introduce .about .undernum {
   display: flex;
@@ -315,24 +310,56 @@ article img {
   line-height: 160px;
   display: inline-block;
   background-color: #d55f5b;
-  padding: 8px 16px 16px 8px;
+  padding: 8px 0 16px 8px;
 }
-.quote div.quote-bottom-container div.quote-bottom div span {
-  display: inline-block;
+.quote div.quote-bottom-container div.quote-bottom div span.zero {
   float: left;
-  font: 110px "微软雅黑";
+  font-size: 110px;
   color: #fff;
-  padding: 0;
-  margin: 0;
-  height: 142px;
-  line-height: 142px;
+  font-family: 微软雅黑;
+  height: 86px;
+  line-height: 86px;
+  border-right: 2px solid #fff;
+  margin: 37px 10px;
+}
+.quote div.quote-bottom-container div.quote-bottom div .nums {
+  margin: -125px 0 0 80px;
+  float: left;
+  font: italic 21px "黑体";
+  color: #fff;
+  text-transform: uppercase;
+}
+.quote div.quote-bottom-container div.quote-bottom div .hello {
+  float: left;
+  font: 12px "黑体";
+  color: #fff;
+  margin: -70px 0 0 82px;
 }
 .quote div.quote-bottom-container div.quote-bottom blockquote {
   height: 160px;
   width: 198px;
   display: inline-block;
-  background-color: yellow;
+  font: italic 14px "黑体";
+  color: #5a5b5b;
   padding: 16px;
+}
+.quote div.quote-bottom-container div.quote-bottom blockquote span {
+  color: #d45d5c;
+  display: inline-block;
+  font: 72px "黑体";
+  height: 30px;
+  text-align: left;
+  padding: 0;
+  width: 80px;
+}
+.quote div.quote-bottom-container div.quote-bottom blockquote span:first-of-type {
+  float: left;
+  margin-left: -40px;
+  margin-top: -20px;
+}
+.quote div.quote-bottom-container div.quote-bottom blockquote span:last-of-type {
+  float: right;
+  margin-right: -40px;
 }
 
 .clearfix:after {
