@@ -197,9 +197,9 @@ main {
             top: 90px;
         }
         h2 {
-            width: 810px;
+            @include suipin;
             top: 225px;
-            margin: 0 auto;
+            
             font: 54px "黑体";
             color: #d0d0d0;
         }

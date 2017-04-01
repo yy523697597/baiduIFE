@@ -177,9 +177,10 @@ main .unknow img {
   top: 90px;
 }
 main .unknow h2 {
-  width: 810px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   top: 225px;
-  margin: 0 auto;
   font: 54px "黑体";
   color: #d0d0d0;
 }
