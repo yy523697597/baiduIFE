@@ -197,11 +197,11 @@ main {
             top: 90px;
         }
         h2 {
-            @include suipin;
+            width: 100%;
             top: 225px;
-            
             font: 54px "黑体";
             color: #d0d0d0;
+            text-align: center;
         }
     }
     .location {

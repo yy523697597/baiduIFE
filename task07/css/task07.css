@@ -177,12 +177,11 @@ main .unknow img {
   top: 90px;
 }
 main .unknow h2 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
   top: 225px;
   font: 54px "黑体";
   color: #d0d0d0;
+  text-align: center;
 }
 main .location {
   position: relative;
