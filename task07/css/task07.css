@@ -177,7 +177,9 @@ main .unknow img {
   top: 90px;
 }
 main .unknow h2 {
+  width: 810px;
   top: 225px;
+  margin: 0 auto;
   font: 54px "黑体";
   color: #d0d0d0;
 }
@@ -658,7 +660,7 @@ footer div.bottom {
   line-height: 55px;
   background-color: #2f3139;
   color: #fff;
-  padding: 0 5% 0 5%;
+  padding: 0 5%;
   font-size: 12px;
 }
 footer div.bottom span {
