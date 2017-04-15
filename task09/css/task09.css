@@ -12,8 +12,9 @@
 
 .d4 { height: 200px; }
 
-@media screen and (min-width: 640px) { .container { border: 1px solid #999; padding: 20px; display: flex; justify-content: space-around; flex-flow: row wrap; align-items: center; } }
-@media screen and (max-width: 639px) { .container { border: 1px solid #999; padding: 20px; display: flex; justify-content: space-around; flex-flow: row wrap; align-items: flex-start; }
+.container { border: 1px solid #999; padding: 20px; display: flex; justify-content: space-around; flex-flow: row wrap; align-items: center; }
+
+@media screen and (max-width: 639px) { .container { align-items: flex-start !important; }
   .d4 { order: -1; } }
 
 /*# sourceMappingURL=task09.css.map */
